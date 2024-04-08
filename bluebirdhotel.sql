@@ -25,9 +25,9 @@ SET time_zone = "+00:00";
 DROP DATABASE IF EXISTS bluebirdhotel;
 CREATE DATABASE IF NOT EXISTS bluebirdhotel;
 
-DROP USER IF EXISTS'bluebird_user'@'%';
-CREATE USER IF NOT EXISTS 'bluebird_user'@'%' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON bluebirdhotel.* TO 'bluebird_user'@'%';
+DROP USER IF EXISTS'bluebird_user'@'localhost';
+CREATE USER IF NOT EXISTS 'bluebird_user'@'localhost'IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON bluebirdhotel.* TO 'bluebird_user'@'localhost';
 USE bluebirdhotel;
 
 -- --------------------------------------------------------

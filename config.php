@@ -5,12 +5,13 @@ $username = "bluebird_user";
 $password = "password";
 $database = "bluebirdhotel";
 
-$conn = mysqli_connect($server,$username,$password,$database);
+$conn = mysqli_connect($server, $username, $password, $database);
 
-if(!$conn){
-    die("<script>alert('connection Failed.')</script>");
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
 }
-// else{
-//     echo "<script>alert('connection successfully.')</script>";
+// } else {
+//   echo "Connected successfully.";
 // }
+
 ?>
