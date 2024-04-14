@@ -27,20 +27,20 @@ if($usermail == true){
     <link rel="stylesheet" href="../css/flash.css">
     <!-- fontowesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>BlueBird - Admin</title>
+    <title>Blue Bird - Admin</title>
 </head>
 
 <body>
     <!-- mobile view -->
-    <div id="mobileview">
-        <h5>Admin panel doesn't show in mobile view</h4>
-    </div>
+    <!-- <div id="mobileview"> -->
+    <!--     <h5>Admin panel doesn't show in mobile view</h4> -->
+    <!-- </div> -->
   
     <!-- nav bar -->
     <nav class="uppernav">
         <div class="logo">
             <img class="bluebirdlogo" src="../image/bluebirdlogo.png" alt="logo">
-            <p>BLUEBIRD</p>
+            <p>Blue Bird</p>
         </div>
         <div class="logout">
         <a href="../logout.php"><button class="btn btn-primary">Logout</button></a>

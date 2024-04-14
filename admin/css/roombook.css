@@ -78,20 +78,19 @@ i{
     height: 100%;
     width: 100%;
     display: none;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     /* align-items: center; */
     background-color: #00000079;
 }
-
 #guestdetailpanel .guestdetailpanelform{
-    height: 620px;
-    width: 1170px;
-    background-color: #ccdff4;
+    height: 200px;
+    width: auto;
+    /* background-color: #ccdff4; */
     border-radius: 10px;  
     /* temp */
     position: relative;
-    top: 20px;
+    bottom: 25%;
     animation: guestinfoform .3s ease;
 }
 a{
@@ -126,7 +125,7 @@ a{
 
 .guestdetailpanelform .middle{
     width: 100%;
-    height: 500px;
+    height: 200px;
     margin: 10px 0 0 0;
     display: flex;
 }

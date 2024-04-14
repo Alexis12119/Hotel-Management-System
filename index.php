@@ -21,7 +21,7 @@ session_start();
     <!-- loading bar -->
     <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
     <link rel="stylesheet" href="./css/flash.css">
-    <title>Hotel blue bird</title>
+    <title>Blue Bird Hotel</title>
 </head>
 
 <body>
@@ -48,7 +48,7 @@ session_start();
 
         <div class="logo">
             <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
-            <p>BLUEBIRD</p>
+            <p>Blue Bird</p>
         </div>
 
         <div class="auth_container">
@@ -100,7 +100,7 @@ session_start();
                     <button type="submit" name="user_login_submit" class="auth_btn">Log in</button>
 
                     <div class="footer_line">
-                        <h6>Don't have an account? <span class="page_move_btn" onclick="signuppage()">sign up</span></h6>
+                        <h6>Don't have an account? <span class="page_move_btn" onclick="signuppage()">Sign up</span></h6>
                     </div>
                 </form>
                 
