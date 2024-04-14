@@ -64,7 +64,7 @@ if ($usermail == true) {
           <a class="nav-link" href="#thirdsection">Facilities</a>
         </li>
         <li class="nav-item">
-          <button href="./logout.php" class=" btn btn-danger ">Logout</button>
+          <a href="./logout.php" class=" btn btn-danger ">Logout</a>
         </li>
       </ul>
     </div>
