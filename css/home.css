@@ -30,10 +30,6 @@ body {
   text-decoration: none;
 }
 
-.navbar-nav {
-  padding: 0 10px
-}
-
 nav {
   position: fixed;
   height: 60px;
@@ -152,15 +148,15 @@ ul li a:hover {
   }
   50% {
     opacity: 0;
- transform: scale(2);
+    transform: scale(2);
   }
   51% {
     opacity: 0;
- transform: scale(0);
+    transform: scale(0);
   }
   100% {
     opacity: 1;
- transform: scale(1);
+    transform: scale(1);
   }
 }
 #firstsection .welcometag {

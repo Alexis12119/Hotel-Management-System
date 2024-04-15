@@ -44,7 +44,7 @@ if ($usermail == true) {
 </head>
 
 <body>
-  <nav class=" navbar navbar-expand-md navbar-light ">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
     <a class="logo navbar-brand " href="#">
       <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
       <p>Blue Bird</p>
@@ -53,20 +53,12 @@ if ($usermail == true) {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="#firstsection">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#rooms">Rooms</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#thirdsection">Facilities</a>
-        </li>
-        <li class="nav-item">
-          <a href="./logout.php" class=" btn btn-danger ">Logout</a>
-        </li>
-      </ul>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#firstsection">Home</a>
+        <a class="nav-item nav-link" href="#rooms">Rooms</a>
+        <a class="nav-item nav-link" href="#thirdsection">Facilities</a>
+        <a href="./logout.php" class="nav-item btn btn-danger ">Logout</a>
+      </div>
     </div>
   </nav>
 
