@@ -44,7 +44,7 @@ if ($usermail == true) {
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light">
     <a class="logo navbar-brand " href="#">
       <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
       <p>Blue Bird</p>
